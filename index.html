@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>WEATHER CHECKER</h1>
+  <p style="color: rgb(245, 245, 245); font-size: 15px; font-family: 'Poppins', sans-serif; margin-bottom: 20px;">Check Weather of Any City</p>
+  <div class="container">
+
+    <div class="wrapper">
+      <div class="img_section">
+        <div class="city-temp">
+          <div id="cityTemp"></div>
+        </div>
+      </div>
+      <div class="content_section">
+        <div class="weather-info">
+          <input type="text" id="cityInput" placeholder="Enter city">
+          <button class="butt" onclick="getWeather()">Get Weather</button>
+          <div id="weatherData"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
